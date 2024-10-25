@@ -8,7 +8,7 @@ from peft import prepare_model_for_kbit_training, LoraConfig, get_peft_model
 
 # 모델 파일 경로 설정
 base_dir = os.path.dirname(__file__)
-model_path = os.path.join(base_dir, 'model/career_counseler.pth')
+model_path = os.path.join(base_dir, 'model/career_counselor.pth')
 
 app = FastAPI()
 
